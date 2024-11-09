@@ -38,6 +38,7 @@ return {
 
         -- markdown
         "marksman",
+        "mdformat",
         "prettierd",
 
         -- shell
