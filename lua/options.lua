@@ -2,5 +2,12 @@ require "nvchad.options"
 
 -- add yours here!
 
--- local o = vim.o
--- o.cursorlineopt ='both' -- to enable cursorline!
+vim.opt.listchars:append {
+  space = "·",
+  lead = "·",
+  trail = "·",
+  extends = "▶",
+  precedes = "◀",
+  tab = "  →",
+}
+vim.opt.list = true
