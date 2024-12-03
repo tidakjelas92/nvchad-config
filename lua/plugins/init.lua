@@ -108,4 +108,10 @@ return {
     dependencies = { "nvim-lua/plenary.nvim" },
     event = { "LspAttach" },
   },
+
+  -- for nvim-qt interface
+  {
+    "equalsraf/neovim-gui-shim",
+    lazy = false,
+  },
 }
